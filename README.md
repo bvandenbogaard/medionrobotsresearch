@@ -12,7 +12,7 @@ After some searching online I found very little technical information about my d
 
 ### Connecting the vacuum robot to LocalTuya
 In order to communicate with the vacuum robot, you need to register the device with a local device key.
-The LocalTuya readme tells you use Cloud API or TinyTua. However both options seem possible with this device.
+The LocalTuya readme tells you to use Cloud API or TinyTua. However both options seem possible with this device.
 So the only way to retrieve those keys is by faking the Android app and extract the keys from there.
 I set up a rooted Andriod environment to dump all HTTPS traffic the app was generating and tada, there it was!
 After providing the localkey to LocalTuya, everything started working.
