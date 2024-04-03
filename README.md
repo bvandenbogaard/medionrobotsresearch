@@ -22,7 +22,7 @@ After providing the localkey to LocalTuya, everything started working.
 First you have to login with your app account details by performing a POST request to https://production.medion.cloud/onboarding/v1/signin
 
 ```
-{"user":"<REPLACE_WITH_YOUR_EMAILADDRESS>","password":"<REPLACE_WITH_YOUR_PASSWORD","deviceId":"<REPLACE_WITH_A_MADE_UP_DEVICE_ID>","deviceName":"<REPLACE_WITH_A_MADE_UP_DEVICE_NAME>"}
+{"user":"<REPLACE_WITH_YOUR_EMAILADDRESS>","password":"<REPLACE_WITH_YOUR_PASSWORD>","deviceId":"<REPLACE_WITH_A_MADE_UP_DEVICE_ID>","deviceName":"<REPLACE_WITH_A_MADE_UP_DEVICE_NAME>"}
 ```
 
 deviceId has to be 16 random hexidecimal characters, suffixed with -ROBOTS, for example "0123456789abcdef-ROBOTS"
