@@ -19,7 +19,7 @@ After providing the localkey to LocalTuya, everything started working.
 
 ### Retrieving the localkey
 
-First you have to login with your app account details by performing a POST request to https://production.medion.cloud/onboarding/v1/signin
+First you have to login with your Medion app account details by performing a POST request to https://production.medion.cloud/onboarding/v1/signin
 
 ```
 {"user":"<REPLACE_WITH_YOUR_EMAILADDRESS>","password":"<REPLACE_WITH_YOUR_PASSWORD>","deviceId":"<REPLACE_WITH_A_MADE_UP_DEVICE_ID>","deviceName":"<REPLACE_WITH_A_MADE_UP_DEVICE_NAME>"}
