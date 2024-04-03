@@ -26,6 +26,7 @@ First you have to login with your app account details by performing a POST reque
 ```
 
 deviceId has to be 16 random hexidecimal characters, suffixed with -ROBOTS, for example "0123456789abcdef-ROBOTS"
+
 deviceName can be any string, for example "Raspberry Pi 4"
 
 If done correctly, you will get a response with a refreshToken and an accessToken.
