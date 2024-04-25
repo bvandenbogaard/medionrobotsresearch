@@ -3,7 +3,7 @@
 ## About Medion Robots
 Medion has several smart home appliances which can be controlled with apps such as Medion Life and Medion Robots.
 The later was more of interest to me because I purchased a cheap robot vacuum cleaner, specifically the S10 SW (MD19601), which could only be controlled with the Medion Robots app.
-This turned out to be a Tuya device, which is an IoT platform that controls many cheap white label IoT devices.
+This turned out to be a Tuya powered device. Tuya has an IoT platform that controls many cheap white label IoT devices.
 Most Tuya enabled devices advertise this on the package. But in this case, it seems that Medion decided not to do so.
 
 ## Home assistant and LocalTuya
