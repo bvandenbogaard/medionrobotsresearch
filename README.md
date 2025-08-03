@@ -1,5 +1,7 @@
 # Medion Robots research notes
 
+**DEPRECATED INFORMATION** Medion is retiring their old Robots app and these endpoints. Use Tuya Local (https://github.com/make-all/tuya-local) with official Tuya mobile app instead to get the device local key.
+
 ## About Medion Robots
 Medion has several smart home appliances which can be controlled with apps such as Medion Life and Medion Robots.
 The later was more of interest to me because I purchased a cheap robot vacuum cleaner, specifically the S10 SW (MD19601), which could only be controlled with the Medion Robots app.
