@@ -8,16 +8,16 @@ The later was more of interest to me because I purchased a cheap robot vacuum cl
 This turned out to be a Tuya powered device. Tuya has an IoT platform that controls many cheap white label IoT devices.
 Most Tuya enabled devices advertise this on the packaging with a Tuya badge, but in this case, it seems that Medion decided not to do so.
 
-## Home assistant and LocalTuya
+## Home assistant and Tuya Local
 Because I am a home automation enthousiast, I thought it would be fun to link this vacuum to my own local instance of Home assistant.
-After some searching online I found very little technical information about my device. I did however find the LocalTuya integration (https://github.com/rospogrigio/localtuya).
+After some searching online I found very little technical information about my device. I did however find the Tuya Local integration (https://github.com/make-all/tuya-local).
 
 ### Connecting the vacuum robot to LocalTuya
 In order to communicate with the vacuum robot, you need to register the device with a local device key.
 The LocalTuya readme tells you to use Cloud API or TinyTua. However both options seem impossible with this device.
 So the only way to retrieve those keys is by faking the Android app and extract the keys from there.
 I set up a rooted Android environment to dump all HTTPS traffic the app was generating and tada, there it was!
-After providing the localkey to LocalTuya, everything started working.
+After providing the localkey to Tuya Local, everything started working.
 
 ### Retrieving the localkey
 
