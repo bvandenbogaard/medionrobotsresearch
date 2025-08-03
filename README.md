@@ -1,6 +1,7 @@
 # Medion Robots research notes
 
-**DEPRECATED INFORMATION** Medion is retiring their old Robots app and these endpoints. Use Tuya Local (https://github.com/make-all/tuya-local) with official Tuya mobile app instead to get the device local key.
+# THIS INFORMATION IS DEPRECATED !!!
+Medion is retiring their old Robots app and these endpoints. Use Tuya Local (https://github.com/make-all/tuya-local) with official Tuya mobile app instead to get the device local key.
 
 ## About Medion Robots
 Medion has several smart home appliances which can be controlled with apps such as Medion Life and Medion Robots.
@@ -12,9 +13,9 @@ Most Tuya enabled devices advertise this on the packaging with a Tuya badge, but
 Because I am a home automation enthousiast, I thought it would be fun to link this vacuum to my own local instance of Home assistant.
 After some searching online I found very little technical information about my device. I did however find the Tuya Local integration (https://github.com/make-all/tuya-local).
 
-### Connecting the vacuum robot to LocalTuya
+### Connecting the vacuum robot to Tuya Local
 In order to communicate with the vacuum robot, you need to register the device with a local device key.
-The LocalTuya readme tells you to use Cloud API or TinyTua. However both options seem impossible with this device.
+The Tuya Local readme tells you to use Cloud API or TinyTua. However both options seem impossible with this device.
 So the only way to retrieve those keys is by faking the Android app and extract the keys from there.
 I set up a rooted Android environment to dump all HTTPS traffic the app was generating and tada, there it was!
 After providing the localkey to Tuya Local, everything started working.
